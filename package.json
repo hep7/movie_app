@@ -17,8 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "gh-pages -d build",
-    "predeploy" : "npm run build"
-    
+    "predeploy": "yarn build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +38,4 @@
     ],
     "homepage": "https://hep7.github.io/movie_app/"
   }
-  
 }
